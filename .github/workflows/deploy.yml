@@ -1,0 +1,40 @@
+name: Hexo Deploy
+
+on:
+  push:
+    branches:
+      - main   # 或你指定的分支
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+
+    steps:
+      # 1. 检出代码
+      - name: Checkout repository
+        uses: actions/checkout@v3
+
+      # 2. 设置 Node.js 环境
+      - name: Setup Node.js
+        uses: actions/setup-node@v3
+        with:
+          node-version: '16'   # 根据项目需要调整版本
+
+      # 3. 安装项目依赖（确保 package.json 中列出 Hexo 及相关插件）
+      - name: Install dependencies
+        run: npm install
+
+      # 4. 生成静态文件（Hexo 默认生成到 public 目录）
+      - name: Generate static files with Hexo
+        run: npx hexo generate
+
+      # 5. 添加 .nojekyll 文件，防止 GitHub Pages 用 Jekyll 解析
+      - name: Create .nojekyll file
+        run: touch public/.nojekyll
+
+      # 6. 部署生成的静态文件到 GitHub Pages
+      - name: Deploy to GitHub Pages
+        uses: peaceiris/actions-gh-pages@v3
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ./public
