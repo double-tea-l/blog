@@ -1,0 +1,7 @@
+#artitalk_main {
+    margin-top: 20px;
+    padding: 15px;
+    background: var(--card-bg);
+    border-radius: 12px;
+    box-shadow: var(--card-box-shadow);
+  }
