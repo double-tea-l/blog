@@ -13,7 +13,8 @@ toc_number: true
 toc_style_simple: true
 ---
 
-<iframe style="border-radius:12px" src="https://open.spotify.com/embed/track/6UAMYWxRqZGp95EtIVuR0K?utm_source=generator&theme=0" width="100%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+<iframe style="border-radius:12px" src="https://open.spotify.com/embed/track/7A4qdcD0aeQTWXgy5JWgl2?utm_source=generator" width="100%" height="152" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+
 
 起源是周三去参加了706的小饭桌，席间这位朋友跟我都相对沉默。后来她加我微信，说想再探讨探讨，于是我们约了周末的hiking。
 
@@ -32,6 +33,12 @@ toc_style_simple: true
 我 coffee chat 其实也是看看，其他人的生活方式是什么样的。nyu 跟我说，也许我活在自己环境的 bubble 里，这个世界并不都是这样的，也许同前任在一起的生活，是一种少数人的生活。就像情人节那天晚上，我和印度朋友在街上餐厅吃饭的时候，看到街上也有很多人，单身或 couple 或朋友，也许也没有什么特别的庆祝，也许也会去普通的餐厅庆祝，而不是我以为的全世界的 couple 都去了 fine dining。
 
 我给自己的叙事，是跌落平凡的人间。也许应该换个叙事了，不若追寻真正的自我，像这位朋友一样。
+
+不过这是湾区以来，第一个正经的 hiking，感觉很舒适。以后每个周末都应该出来运动一下，就像回到亚城一样。
+
+昨晚下班后，自己去打了一个小时网球，听着 Google cio 的 podcast。我告诉自己，还不能放弃: you're born to be a leader. 
+
+也许直到现在，我才真正明白，什么是开始「面对自己的孤独」。想起看到酒吧里一个人练台球的老哥，那是我想成为的样子，一个可以在工作场合 affirmative，在生活中自娱自乐的人。
 
 
 ## Deepseek 锐评
